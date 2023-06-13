@@ -201,6 +201,41 @@ if selected == 'Home':
         unsafe_allow_html=True)
     st.header('')
 
+    subhead_app_7 = '''
+    <style>
+    .subhead-item {
+        backgroundcolor: transparent;
+    }
+    .subhead-item:hover {
+        color: #2E6EF7;
+    }
+    </style>
+
+    <a style='display: inline; text-align: left; color: #31333F
+    ; text-decoration: none; '
+    href="/Structured_sample_size" target="_self">
+    <h3 class="subhead-item">
+    Structured Sample Size Calculator
+    </h3>
+    </a>
+    '''
+    st.write(subhead_app_7, unsafe_allow_html=True)
+    app_7_topic = 'Description'
+    st.write(
+        f'''<div style="text-align: left; color: #31d1ff;">
+        {app_7_topic}</div>''',
+        unsafe_allow_html=True)
+    app_7_cap = f'''
+    By uploading a Dataframe and selecting a structure of given Dataframe you can
+    obtain its sample size per row and its wieghted sample size per row.
+    '''
+    st.caption(
+        f'''
+        <div style="text-align: justify;
+        margin-top: 5px;
+        ">{app_7_cap}</div>''',
+        unsafe_allow_html=True)
+    st.header('')
 
 if selected == 'Sampling':
     switch_page('Sindex')
