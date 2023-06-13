@@ -193,32 +193,32 @@ if selected == 'Sampling':
                                                file_name=f'PIVOT_STRUCTURE_{file_name_df}.csv',
                                                mime='text/csv')
 
-            st.write('')
-            st.write('Don\'t forget to **download** your sampled Dataframe.')
-            st.write(
-                'If you want to remove stores from the sampled Dataframe use our:')
-            subhead_app_2 = '''
-            <style>
-            .subhead-item_2 {
-                color: #2E6EF7;
-                backgroundcolor: transparent;
-            }
-            .subhead-item_2:hover {
-                color: #164fc9;
-            }
-            </style>
-
-            <a style='display: inline; text-align: center; color: #31333F
-            ; text-decoration: none; '
-            href="/Replacing" target="_self">
-            <h5 class="subhead-item_2">
-            Replacing app
-            </h5>
-            </a>
-            '''
-            st.write(subhead_app_2, unsafe_allow_html=True)
-            st.write('')
-            st.write('')
+                        st.write('')
+                        st.write('Don\'t forget to **download** your sampled Dataframe.')
+                        st.write(
+                            'If you want to remove stores from the sampled Dataframe use our:')
+                        subhead_app_2 = '''
+                        <style>
+                        .subhead-item_2 {
+                            color: #2E6EF7;
+                            backgroundcolor: transparent;
+                        }
+                        .subhead-item_2:hover {
+                            color: #164fc9;
+                        }
+                        </style>
+            
+                        <a style='display: inline; text-align: center; color: #31333F
+                        ; text-decoration: none; '
+                        href="/Replacing" target="_self">
+                        <h5 class="subhead-item_2">
+                        Replacing app
+                        </h5>
+                        </a>
+                        '''
+                        st.write(subhead_app_2, unsafe_allow_html=True)
+                        st.write('')
+                        st.write('')
 
 
 if selected == 'Replacing':
