@@ -207,7 +207,7 @@ text-align:
 left;' href="https://github.com/sape94" target="_blank">
 <img src="https://i.postimg.cc/vBnHmZfF/innovation-logo.png"
 alt="AI" height= "20"/><br>LatAm's Automation & Innovation Team.
-</br></a></p>
+</br></a>Version 1.4.1-b.1.</p>
 </div>
 </div>
 """
