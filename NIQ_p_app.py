@@ -213,9 +213,9 @@ if selected == 'Home':
 
     <a style='display: inline; text-align: left; color: #31333F
     ; text-decoration: none; '
-    href="/Structured_sample_size" target="_self">
+    href="/Sample_size_from_structure" target="_self">
     <h3 class="subhead-item">
-    Structured Sample Size Calculator
+    Sample Size from Structure
     </h3>
     </a>
     '''
@@ -227,7 +227,8 @@ if selected == 'Home':
         unsafe_allow_html=True)
     app_7_cap = f'''
     By uploading a Dataframe and selecting a structure of given Dataframe you can
-    obtain its sample size per row and its wieghted sample size per row.
+    obtain its sample size per row and its wieghted sample size per row. You can do
+    it by uploading the Master Dataframe or the Pivot.
     '''
     st.caption(
         f'''
@@ -283,7 +284,7 @@ text-align:
 left;' href="https://github.com/sape94" target="_blank">
 <img src="https://i.postimg.cc/vBnHmZfF/innovation-logo.png"
 alt="AI" height= "20"/><br>LatAm's Automation & Innovation Team.
-</br></a></p>
+</br></a>Version 1.1.1-b.1.</p>
 </div>
 </div>
 """
