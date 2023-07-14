@@ -94,7 +94,7 @@ if selected == 'Sampling':
             pivot = pivot.fillna(0)
             st.write(pivot)
 
-    st.markdown('')
+    st.write('')
 
     if uploaded_file is None:
         st.caption('<p style="color: #2e6ef7;">Please upload a Dataframe to continue.</p>',
