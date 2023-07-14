@@ -77,6 +77,7 @@ if selected == 'Sampling':
     st.write(subhead_app_7, unsafe_allow_html=True)
 
     # st.markdown('How you want to proceed:')
+    st.markdown('')
 
     with st.expander('Expand this section to upload your Dataframe. When you finish you can collapse it again.'):
         st.write(
