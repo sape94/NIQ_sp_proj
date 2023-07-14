@@ -105,7 +105,6 @@ if selected == 'Sampling':
         s_e = 5
         
         st.markdown('')
-        st.write('')
 
         st.write('Select the **all the quota** columns:')
         quota_cols = st.multiselect(
